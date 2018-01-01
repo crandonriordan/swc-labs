@@ -6,29 +6,31 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Ben's Burgers</title>
+        <link rel="stylesheet" href="restaurantStyles.css" type="text/css">
         <style>
-            * {
-                text-align: center;
-            }
+        
         </style>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div>
-            <h1>Ben's Burgers</h1>
+        <div class="header">
+            <div>
+                <h1>Ben's Burgers</h1>
+            </div>
+
+            <div>
+                <hr>
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="contact.html">Contact Us</a>
+                <hr>
+            </div>
         </div>
 
         <div>
-            <hr>
-            <a href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="contact.html">Contact Us</a>
-            <hr>
-        </div>
-
-        <div>
-            <img src="http://via.placeholder.com/400x150" alt="Restaurant photo"><br>
+            <img id="image" src="http://via.placeholder.com/400x150" 
+            alt="Restaurant photo" style="display:block; margin:auto;"><br>
             <p>
                 Ben's Burgers
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -43,7 +45,7 @@
             </p>
         </div>
         
-        <div>
+        <div class="footer">
             <hr>
             <h3>400 Box Drive, Morlbo, KY, 47234</h3>
             <h3>(999)-999-9999</h3>
