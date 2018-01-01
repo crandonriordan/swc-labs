@@ -1,0 +1,13 @@
+body {
+    width: 100%
+    margin: 0 auto;
+}
+
+#Header {
+    text-align: center;
+}
+
+#BandInfo {
+    width: 80%;
+    margin: 0 auto;
+}
