@@ -1,0 +1,31 @@
+body {
+    width: 100%
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    width: 75%;
+}
+
+#Header {
+    text-align: center;
+}
+
+#image {
+    background-image: url("assets/img-37.jpg");
+    width: 250px;
+    height: 250px;
+    background-size: 250px;
+    background-color: black;
+}
+
+#BandInfo {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
