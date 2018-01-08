@@ -13,6 +13,7 @@ hr {
 }
 
 #image {
+    margin: auto;
     background-image: url("assets/img-37.jpg");
     width: 250px;
     height: 250px;

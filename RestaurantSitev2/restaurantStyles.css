@@ -1,0 +1,69 @@
+.header, .footer {
+    margin-top: -16px;
+    
+    text-align: center;
+    background-color: #FEE76D;
+}
+
+.header {
+    padding-top: 16px;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer hr {
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+
+h1 {
+    font-size: 3em;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+body {
+    background-color: #759CBC;
+}
+
+body, html {
+    margin: 0;
+    height: auto;
+}
+
+a:visited {
+    color: #5F697F;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+table, th, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 40%;
+    margin: auto;
+}
+
+th {
+    background-color: #E67D50;
+}
+tr:nth-child(odd) {
+    background-color: #FEE76D;
+}
+
+tr:nth-child(even) {
+    background-color: #5F697F;
+}
